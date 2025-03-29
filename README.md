@@ -5,6 +5,7 @@ AIM : To perform Construction and Re-contruction of impluse or ideal sampling us
 TOOLS REQUIRED : Softare: Google Colab Python libraries: NumPy, Matplotlib
 
 PROGRAM :
+~~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -41,7 +42,7 @@ plt.ylabel('Amplitude')
 plt.grid(True)
 plt.legend()
 plt.show()
-
+~~~~
 OUTPUT WAVEFORM :
 ![WhatsApp Image 2025-03-29 at 15 56 07_347826a5](https://github.com/user-attachments/assets/cb0cd251-218e-440b-b2d9-ce0abe34057d)
 ![WhatsApp Image 2025-03-29 at 15 56 18_c6e515be](https://github.com/user-attachments/assets/ea548004-7d2a-40db-8b2b-2f6281cbd80f)

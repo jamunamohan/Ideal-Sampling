@@ -2,10 +2,10 @@ Ideal-Sampling
 
 AIM : To perform Construction and Re-contruction of impluse or ideal sampling using python.
 
-TOOLS REQUIRED : Softare: Google Colab Python libraries: NumPy, Matplotlib
+TOOLS REQUIRED : Google Colab Python libraries: NumPy, Matplotlib
 
 PROGRAM :
-~~~~
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -34,7 +34,6 @@ plt.legend()
 plt.show()
 reconstructed_signal = resample(signal_sampled, len(t))
 plt.figure(figsize=(10, 4))
-plt.plot(t, signal, label='Continuous Signal', alpha=0.7)
 plt.plot(t, reconstructed_signal, 'r--', label='Reconstructed Signal (fs = 100 Hz)')
 plt.title('Reconstruction of Sampled Signal (fs = 100 Hz)')
 plt.xlabel('Time [s]')
@@ -42,10 +41,11 @@ plt.ylabel('Amplitude')
 plt.grid(True)
 plt.legend()
 plt.show()
-~~~~
-OUTPUT WAVEFORM :
-![WhatsApp Image 2025-03-29 at 15 56 07_347826a5](https://github.com/user-attachments/assets/cb0cd251-218e-440b-b2d9-ce0abe34057d)
-![WhatsApp Image 2025-03-29 at 15 56 18_c6e515be](https://github.com/user-attachments/assets/ea548004-7d2a-40db-8b2b-2f6281cbd80f)
-![WhatsApp Image 2025-03-29 at 15 56 32_9c611e8e](https://github.com/user-attachments/assets/a3f341a2-b16c-4673-b166-13abfa7017c4)
+
+OUTPUT WAVEFORM:
+
+![WhatsApp Image 2025-03-30 at 10 17 46_4f327979](https://github.com/user-attachments/assets/713722fc-61d0-4d2d-9b8e-ecd26d35c714)
+![WhatsApp Image 2025-03-30 at 10 17 57_3961a7a7](https://github.com/user-attachments/assets/fdaa5817-ef69-468d-89bf-5a106e62b4d0)
+![image](https://github.com/user-attachments/assets/55919387-52a5-44d8-874b-a356fb508d43)
 
 RESULT : The Construction and Re-construction of impulse or ideal sampling using python are verified.
